@@ -84,7 +84,7 @@ Bentuk JSON dibuat menyerupai respons API. Pada tahap berikutnya, cukup ganti is
 
 1. Clone repositori:
    ```bash
-   git clone <URL-REPOSITORI-GITHUB>
+   git clone https://github.com/khair-cyber/NusaResep.git
    cd NusaResep
    ```
 2. Unduh dependensi:
