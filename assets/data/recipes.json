@@ -1,0 +1,107 @@
+{
+  "categories": [
+    { "id": "utama", "name": "Hidangan Utama", "emoji": "🍛" },
+    { "id": "sup", "name": "Sup & Soto", "emoji": "🍲" },
+    { "id": "bakar", "name": "Bakar & Sate", "emoji": "🔥" },
+    { "id": "jajanan", "name": "Jajanan", "emoji": "🍡" },
+    { "id": "minuman", "name": "Minuman", "emoji": "🥤" }
+  ],
+  "recipes": [
+    {
+      "id": 1, "name": "Nasi Goreng Kampung", "categoryId": "utama", "region": "Jawa",
+      "emoji": "🍛", "colorHex": "#F6D58E", "imageUrl": "",
+      "duration": 25, "servings": 2, "difficulty": "Mudah", "rating": 4.7,
+      "description": "Nasi goreng sederhana berbumbu bawang, cabai, dan terasi dengan aroma khas masakan rumahan.",
+      "ingredients": ["3 piring nasi putih dingin", "4 siung bawang merah", "2 siung bawang putih", "3 buah cabai merah", "1/2 sdt terasi bakar", "2 sdm kecap manis", "2 butir telur", "Garam dan merica secukupnya", "Minyak untuk menumis"],
+      "steps": ["Haluskan bawang merah, bawang putih, cabai, dan terasi.", "Panaskan minyak, tumis bumbu halus hingga harum.", "Sisihkan bumbu ke tepi wajan, orak-arik telur hingga matang.", "Masukkan nasi, kecap manis, garam, dan merica. Aduk rata.", "Masak 3-5 menit dengan api besar, sajikan dengan kerupuk dan acar."]
+    },
+    {
+      "id": 2, "name": "Rendang Daging Sapi", "categoryId": "utama", "region": "Minangkabau",
+      "emoji": "🥘", "colorHex": "#E8B4A0", "imageUrl": "",
+      "duration": 180, "servings": 6, "difficulty": "Sulit", "rating": 4.9,
+      "description": "Daging sapi dimasak perlahan dalam santan dan rempah hingga kering dan berwarna cokelat pekat.",
+      "ingredients": ["1 kg daging sapi, potong kotak", "1 liter santan kental", "10 siung bawang merah", "5 siung bawang putih", "10 buah cabai merah", "3 cm jahe", "3 cm lengkuas", "2 batang serai, memarkan", "5 lembar daun jeruk", "2 lembar daun kunyit", "Garam secukupnya"],
+      "steps": ["Haluskan bawang, cabai, jahe, dan lengkuas.", "Tumis bumbu halus bersama serai, daun jeruk, dan daun kunyit sampai harum.", "Masukkan daging, aduk sampai berubah warna.", "Tuang santan, masak dengan api kecil sambil sesekali diaduk.", "Lanjutkan 2,5-3 jam sampai santan menyusut, kuah mengering, dan warna menjadi cokelat tua.", "Koreksi rasa dan angkat."]
+    },
+    {
+      "id": 3, "name": "Gado-gado Betawi", "categoryId": "utama", "region": "Jakarta",
+      "emoji": "🥗", "colorHex": "#BFE3B4", "imageUrl": "",
+      "duration": 30, "servings": 2, "difficulty": "Mudah", "rating": 4.5,
+      "description": "Sayuran rebus disiram saus kacang gurih manis, dilengkapi tahu, tempe, dan telur.",
+      "ingredients": ["100 g kacang tanah goreng", "2 buah cabai rawit", "1 siung bawang putih", "2 sdm gula merah", "1 sdm air asam jawa", "Kol, kangkung, tauge, dan kacang panjang", "2 buah kentang rebus", "2 butir telur rebus", "Tahu dan tempe goreng", "Kerupuk dan emping"],
+      "steps": ["Haluskan kacang, cabai, bawang putih, dan gula merah.", "Tambahkan air hangat dan air asam jawa sampai saus kental, beri garam.", "Rebus sayuran sebentar, tiriskan.", "Tata sayuran, kentang, telur, tahu, dan tempe di piring.", "Siram saus kacang, taburi emping dan kerupuk."]
+    },
+    {
+      "id": 4, "name": "Soto Ayam Lamongan", "categoryId": "sup", "region": "Jawa Timur",
+      "emoji": "🍲", "colorHex": "#F9E3A1", "imageUrl": "",
+      "duration": 60, "servings": 4, "difficulty": "Sedang", "rating": 4.8,
+      "description": "Soto berkuah kuning bening dengan suwiran ayam dan taburan koya yang gurih.",
+      "ingredients": ["1/2 ekor ayam", "2 liter air", "6 siung bawang merah", "4 siung bawang putih", "3 cm kunyit", "2 cm jahe", "2 batang serai", "3 lembar daun jeruk", "Soun, tauge, dan telur rebus", "Koya dari kerupuk udang dan bawang putih goreng"],
+      "steps": ["Rebus ayam bersama serai dan daun jeruk sampai empuk.", "Haluskan bawang, kunyit, dan jahe, lalu tumis sampai harum.", "Masukkan tumisan ke kaldu, masak 20 menit, beri garam.", "Angkat ayam, goreng sebentar lalu suwir.", "Sajikan dengan soun, tauge, telur, suwiran ayam, kuah panas, dan koya."]
+    },
+    {
+      "id": 5, "name": "Rawon Surabaya", "categoryId": "sup", "region": "Jawa Timur",
+      "emoji": "🍜", "colorHex": "#C9C3D9", "imageUrl": "",
+      "duration": 120, "servings": 4, "difficulty": "Sedang", "rating": 4.6,
+      "description": "Sup daging berkuah hitam dari kluwek, disajikan dengan tauge pendek dan sambal.",
+      "ingredients": ["500 g daging sapi", "5 buah kluwek, ambil isinya", "6 siung bawang merah", "3 siung bawang putih", "3 butir kemiri", "2 cm lengkuas", "2 batang serai", "3 lembar daun jeruk", "Tauge pendek dan telur asin"],
+      "steps": ["Rebus daging sampai empuk, potong dan sisihkan kaldunya.", "Haluskan kluwek, bawang, dan kemiri.", "Tumis bumbu halus bersama serai, lengkuas, dan daun jeruk.", "Masukkan tumisan ke kaldu bersama daging, masak 30 menit.", "Sajikan dengan nasi, tauge, telur asin, dan sambal."]
+    },
+    {
+      "id": 6, "name": "Sayur Asem", "categoryId": "sup", "region": "Betawi",
+      "emoji": "🥬", "colorHex": "#CFE8A9", "imageUrl": "",
+      "duration": 30, "servings": 4, "difficulty": "Mudah", "rating": 4.4,
+      "description": "Sayur berkuah segar asam manis dengan jagung, labu siam, dan melinjo.",
+      "ingredients": ["1 liter air", "1 buah jagung manis, potong", "2 buah labu siam", "100 g melinjo", "100 g kacang panjang", "4 siung bawang merah", "2 siung bawang putih", "3 buah cabai merah", "2 sdm air asam jawa", "2 sdm gula merah"],
+      "steps": ["Haluskan bawang merah, bawang putih, dan cabai.", "Didihkan air, masukkan bumbu halus.", "Masukkan jagung, melinjo, dan labu siam, masak 10 menit.", "Tambahkan kacang panjang, asam jawa, gula merah, dan garam.", "Masak sampai sayur empuk, sajikan hangat."]
+    },
+    {
+      "id": 7, "name": "Sate Ayam Madura", "categoryId": "bakar", "region": "Madura",
+      "emoji": "🍢", "colorHex": "#F2C4A0", "imageUrl": "",
+      "duration": 60, "servings": 4, "difficulty": "Sedang", "rating": 4.9,
+      "description": "Sate ayam bakar dengan saus kacang kental dan kecap manis, disajikan bersama lontong.",
+      "ingredients": ["500 g daging ayam fillet", "Tusuk sate", "150 g kacang tanah goreng", "5 siung bawang merah", "2 siung bawang putih", "3 sdm kecap manis", "1 sdm air jeruk nipis", "Lontong dan bawang merah iris"],
+      "steps": ["Potong ayam dadu kecil, tusukkan pada tusuk sate.", "Haluskan kacang, bawang merah, dan bawang putih, lalu masak dengan air dan kecap sampai kental.", "Lumuri sate dengan sedikit kecap manis.", "Bakar di atas bara sambil dibalik dan diolesi kecap sampai matang.", "Sajikan dengan saus kacang, lontong, dan bawang merah."]
+    },
+    {
+      "id": 8, "name": "Ayam Bakar Taliwang", "categoryId": "bakar", "region": "Lombok",
+      "emoji": "🍗", "colorHex": "#F4B6A6", "imageUrl": "",
+      "duration": 75, "servings": 4, "difficulty": "Sedang", "rating": 4.7,
+      "description": "Ayam kampung bakar dengan bumbu cabai, terasi, dan tomat khas Lombok yang pedas.",
+      "ingredients": ["1 ekor ayam, belah dua", "15 buah cabai merah keriting", "5 buah cabai rawit", "8 siung bawang merah", "4 siung bawang putih", "1 sdt terasi bakar", "2 buah tomat", "3 sdm kecap manis", "1 sdm air jeruk nipis"],
+      "steps": ["Rebus ayam dengan sedikit garam sampai setengah matang.", "Haluskan cabai, bawang, terasi, dan tomat, lalu tumis sampai harum.", "Lumuri ayam dengan bumbu dan diamkan 30 menit.", "Bakar sambil diolesi bumbu dan kecap sampai matang kecokelatan.", "Sajikan dengan plecing kangkung."]
+    },
+    {
+      "id": 9, "name": "Pisang Goreng Crispy", "categoryId": "jajanan", "region": "Nasional",
+      "emoji": "🍌", "colorHex": "#FBE08A", "imageUrl": "",
+      "duration": 20, "servings": 4, "difficulty": "Mudah", "rating": 4.5,
+      "description": "Pisang goreng berbalut adonan tepung renyah di luar dan lembut manis di dalam.",
+      "ingredients": ["6 buah pisang kepok", "100 g tepung terigu", "50 g tepung beras", "1 sdm gula pasir", "1/4 sdt garam", "150 ml air dingin", "Minyak untuk menggoreng"],
+      "steps": ["Campur tepung terigu, tepung beras, gula, dan garam.", "Tuang air dingin sedikit demi sedikit sampai adonan agak kental.", "Celupkan pisang ke adonan.", "Goreng dalam minyak panas sampai keemasan.", "Tiriskan dan sajikan hangat."]
+    },
+    {
+      "id": 10, "name": "Klepon Pandan", "categoryId": "jajanan", "region": "Jawa",
+      "emoji": "🍡", "colorHex": "#A8D5A2", "imageUrl": "",
+      "duration": 40, "servings": 6, "difficulty": "Sedang", "rating": 4.6,
+      "description": "Bola ketan hijau berisi gula merah cair, digulung kelapa parut.",
+      "ingredients": ["200 g tepung ketan", "150 ml air pandan", "1/4 sdt garam", "100 g gula merah, sisir halus", "150 g kelapa parut kukus", "1/4 sdt garam untuk kelapa"],
+      "steps": ["Campur tepung ketan, air pandan, dan garam sampai bisa dibentuk.", "Ambil adonan, pipihkan, isi gula merah, lalu bulatkan.", "Rebus dalam air mendidih sampai mengapung.", "Angkat, tiriskan, lalu gulingkan pada kelapa parut.", "Sajikan selagi hangat."]
+    },
+    {
+      "id": 11, "name": "Es Cendol Dawet", "categoryId": "minuman", "region": "Sunda",
+      "emoji": "🥤", "colorHex": "#B7E0C2", "imageUrl": "",
+      "duration": 30, "servings": 4, "difficulty": "Sedang", "rating": 4.8,
+      "description": "Minuman dingin berisi cendol hijau, santan gurih, dan sirup gula merah.",
+      "ingredients": ["100 g tepung beras", "25 g tepung sagu", "300 ml air pandan", "400 ml santan", "150 g gula merah", "200 ml air", "Es batu", "Garam secukupnya"],
+      "steps": ["Masak tepung beras, sagu, dan air pandan sambil diaduk sampai kental.", "Tekan adonan melalui saringan berlubang ke air es agar terbentuk cendol.", "Rebus gula merah dengan air sampai larut, saring.", "Panaskan santan dengan garam, lalu dinginkan.", "Susun cendol, santan, sirup gula merah, dan es batu dalam gelas."]
+    },
+    {
+      "id": 12, "name": "Wedang Jahe", "categoryId": "minuman", "region": "Jawa",
+      "emoji": "🍵", "colorHex": "#F5CFA0", "imageUrl": "",
+      "duration": 15, "servings": 2, "difficulty": "Mudah", "rating": 4.3,
+      "description": "Minuman jahe hangat dengan serai dan gula merah untuk menghangatkan badan.",
+      "ingredients": ["5 cm jahe, memarkan", "1 batang serai, memarkan", "3 sdm gula merah", "500 ml air", "2 butir cengkeh"],
+      "steps": ["Didihkan air bersama jahe, serai, dan cengkeh.", "Kecilkan api, masak 10 menit.", "Masukkan gula merah, aduk sampai larut.", "Saring dan sajikan hangat."]
+    }
+  ]
+}
