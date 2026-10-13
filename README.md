@@ -107,4 +107,7 @@ Bentuk JSON dibuat menyerupai respons API. Pada tahap berikutnya, cukup ganti is
 - Nama: Nor Khairina
 - NIM: 240605110030
 - Kelas: F
-- Mata Kuliah: Mobile Programming Practicum 
+- Mata Kuliah: Mobile Programming Practicum
+
+## Video Presentasi (Youtube)
+https://youtu.be/o2i1r_5fSYQ?si=93iq8JEUoPjGVUAG 
